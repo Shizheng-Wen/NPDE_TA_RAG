@@ -21,7 +21,7 @@ This tool helps Teaching Assistants quickly search course materials, find simila
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/NPDE_TA_RAG.git
+git clone https://github.com/Shizheng-Wen/NPDE_TA_RAG.git
 cd NPDE_TA_RAG
 ```
 
