@@ -149,7 +149,7 @@ def parse_pdf(file_path: Path, show_progress: bool = False) -> ParsedDocument:
     
     for page_num, page in enumerate(page_iter):
         # Extract text with better formatting preservation
-        text = page.get_text("text")
+        text = page.get_text("layout")
         text = clean_text(text)
         
         # Build page metadata
